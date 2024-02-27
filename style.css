@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background-image: url(./bg.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+}
+
+button{
+    margin: 10px;
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.row div{
+    padding: 10px;
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    float: left;
+    background-color: beige;
+    margin: 2px;
+}
+
